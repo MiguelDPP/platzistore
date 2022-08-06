@@ -14,8 +14,10 @@ module.exports = withPWA({
   },
   reactStrictMode: true,
   swcMinify: true,
-  images: {
-    unoptimized: true,
+  experimental: {
+    images: {
+      unoptimized: true,
+    },
   },
 });
 
