@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <AppContext.Provider value={initialState}>
       <Head>
-        <title>React Shop</title>
+        <title>Home</title>
       </Head>
       <Header />
       <Component {...pageProps} />

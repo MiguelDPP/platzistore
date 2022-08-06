@@ -14,11 +14,12 @@ module.exports = withPWA({
   },
   reactStrictMode: true,
   swcMinify: true,
-  experimental: {
-    images: {
-      unoptimized: true,
-    },
-  }
+  // PARA DESABILITAR PARA NEXT OUT
+  // experimental: {
+  //   images: {
+  //     unoptimized: true,
+  //   },
+  // }
 });
 
 
