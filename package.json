@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "lint:fix": "eslint src/ --fix && prettier src/ --write"
+    "lint:fix": "eslint src/ --fix && prettier src/ --write",
+    "export": "next export"
   },
   "dependencies": {
     "axios": "^0.27.2",
